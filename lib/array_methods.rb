@@ -10,9 +10,9 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  max_value = 0
+  x = 0
   array.length.times do |i|
-    if i < max_value
+    if i > x
       i = array[index]
     end
   end
